@@ -1,0 +1,638 @@
+manish@manish-VirtualBox:~$ sudo apt-get update
+[sudo] password for manish: 
+Hit:1 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease             
+Hit:3 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease     
+Hit:4 http://security.ubuntu.com/ubuntu bionic-security InRelease        
+Reading package lists... Done                      
+manish@manish-VirtualBox:~$ sudo apt-get install default-jdk
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0 grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libcolamd2 libdazzle-1.0-0 libe-book-0.1-1
+  libedataserverui-1.2-2 libeot0 libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libexiv2-14 libfreerdp-client2-2 libfreerdp2-2 libgc1c2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0 libgpgmepp6 libgpod-common
+  libgpod4 liblangtag-common liblangtag1 liblirc-client0 liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1 libqqwing2v5 libraw16 librevenge-0.0-0 libsgutils2-2 libssh-4 libsuitesparseconfig5
+  libvncclient1 libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve media-player-info python3-mako python3-markupsafe syslinux syslinux-common syslinux-legacy usb-creator-common
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  ca-certificates-java default-jdk-headless default-jre default-jre-headless fonts-dejavu-extra java-common libatk-wrapper-java libatk-wrapper-java-jni libgif7 libice-dev libpthread-stubs0-dev libsm-dev
+  libx11-dev libx11-doc libxau-dev libxcb1-dev libxdmcp-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre openjdk-11-jre-headless x11proto-core-dev x11proto-dev xorg-sgml-doctools
+  xtrans-dev
+Suggested packages:
+  libice-doc libsm-doc libxcb-doc libxt-doc openjdk-11-demo openjdk-11-source visualvm fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei | fonts-wqy-zenhei
+The following NEW packages will be installed:
+  ca-certificates-java default-jdk default-jdk-headless default-jre default-jre-headless fonts-dejavu-extra java-common libatk-wrapper-java libatk-wrapper-java-jni libgif7 libice-dev
+  libpthread-stubs0-dev libsm-dev libx11-dev libx11-doc libxau-dev libxcb1-dev libxdmcp-dev libxt-dev openjdk-11-jdk openjdk-11-jdk-headless openjdk-11-jre openjdk-11-jre-headless x11proto-core-dev
+  x11proto-dev xorg-sgml-doctools xtrans-dev
+0 upgraded, 27 newly installed, 0 to remove and 135 not upgraded.
+Need to get 266 MB of archives.
+After this operation, 428 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 java-common all 0.68ubuntu1~18.04.1 [14.5 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 openjdk-11-jre-headless amd64 11.0.15+10-0ubuntu0.18.04.1 [37.2 MB]
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 default-jre-headless amd64 2:1.11-68ubuntu1~18.04.1 [10.9 kB]                                                                          
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 ca-certificates-java all 20180516ubuntu1~18.04.1 [12.2 kB]                                                                             
+Get:5 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgif7 amd64 5.1.4-2ubuntu0.1 [30.9 kB]                                                                                               
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 openjdk-11-jre amd64 11.0.15+10-0ubuntu0.18.04.1 [174 kB]                                                                              
+Get:7 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 default-jre amd64 2:1.11-68ubuntu1~18.04.1 [1,076 B]                                                                                   
+Get:8 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 openjdk-11-jdk-headless amd64 11.0.15+10-0ubuntu0.18.04.1 [221 MB]                                                                     
+Get:9 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 default-jdk-headless amd64 2:1.11-68ubuntu1~18.04.1 [1,132 B]                                                                          
+Get:10 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 openjdk-11-jdk amd64 11.0.15+10-0ubuntu0.18.04.1 [1,554 kB]                                                                           
+Get:11 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 default-jdk amd64 2:1.11-68ubuntu1~18.04.1 [1,092 B]                                                                                  
+Get:12 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 fonts-dejavu-extra all 2.37-1 [1,953 kB]                                                                                                      
+Get:13 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libatk-wrapper-java all 0.33.3-20ubuntu0.1 [34.7 kB]                                                                                          
+Get:14 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libatk-wrapper-java-jni amd64 0.33.3-20ubuntu0.1 [28.3 kB]                                                                                    
+Get:15 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 xorg-sgml-doctools all 1:1.11-1 [12.9 kB]                                                                                                     
+Get:16 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 x11proto-dev all 2018.4-4 [251 kB]                                                                                                            
+Get:17 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 x11proto-core-dev all 2018.4-4 [2,620 B]                                                                                                      
+Get:18 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libice-dev amd64 2:1.0.9-2 [46.8 kB]                                                                                                          
+Get:19 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libpthread-stubs0-dev amd64 0.3-4 [4,068 B]                                                                                                   
+Get:20 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libsm-dev amd64 2:1.2.2-1 [16.2 kB]                                                                                                           
+Get:21 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libxau-dev amd64 1:1.0.8-1ubuntu1 [9,476 B]                                                                                           
+Get:22 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libxdmcp-dev amd64 1:1.1.2-3 [25.1 kB]                                                                                                        
+Get:23 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 xtrans-dev all 1.3.5-1 [70.5 kB]                                                                                                              
+Get:24 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libxcb1-dev amd64 1.13-2~ubuntu18.04 [80.0 kB]                                                                                        
+Get:25 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libx11-dev amd64 2:1.6.4-3ubuntu0.4 [641 kB]                                                                                          
+Get:26 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libx11-doc all 2:1.6.4-3ubuntu0.4 [2,065 kB]                                                                                          
+Get:27 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 libxt-dev amd64 1:1.1.5-1 [395 kB]                                                                                                            
+Fetched 266 MB in 7min 19s (605 kB/s)                                                                                                                                                                      
+Selecting previously unselected package java-common.
+(Reading database ... 156541 files and directories currently installed.)
+Preparing to unpack .../00-java-common_0.68ubuntu1~18.04.1_all.deb ...
+Unpacking java-common (0.68ubuntu1~18.04.1) ...
+Selecting previously unselected package openjdk-11-jre-headless:amd64.
+Preparing to unpack .../01-openjdk-11-jre-headless_11.0.15+10-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking openjdk-11-jre-headless:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+Selecting previously unselected package default-jre-headless.
+Preparing to unpack .../02-default-jre-headless_2%3a1.11-68ubuntu1~18.04.1_amd64.deb ...
+Unpacking default-jre-headless (2:1.11-68ubuntu1~18.04.1) ...
+Selecting previously unselected package ca-certificates-java.
+Preparing to unpack .../03-ca-certificates-java_20180516ubuntu1~18.04.1_all.deb ...
+Unpacking ca-certificates-java (20180516ubuntu1~18.04.1) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../04-libgif7_5.1.4-2ubuntu0.1_amd64.deb ...
+Unpacking libgif7:amd64 (5.1.4-2ubuntu0.1) ...
+Selecting previously unselected package openjdk-11-jre:amd64.
+Preparing to unpack .../05-openjdk-11-jre_11.0.15+10-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking openjdk-11-jre:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+Selecting previously unselected package default-jre.
+Preparing to unpack .../06-default-jre_2%3a1.11-68ubuntu1~18.04.1_amd64.deb ...
+Unpacking default-jre (2:1.11-68ubuntu1~18.04.1) ...
+Selecting previously unselected package openjdk-11-jdk-headless:amd64.
+Preparing to unpack .../07-openjdk-11-jdk-headless_11.0.15+10-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking openjdk-11-jdk-headless:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+Selecting previously unselected package default-jdk-headless.
+Preparing to unpack .../08-default-jdk-headless_2%3a1.11-68ubuntu1~18.04.1_amd64.deb ...
+Unpacking default-jdk-headless (2:1.11-68ubuntu1~18.04.1) ...
+Selecting previously unselected package openjdk-11-jdk:amd64.
+Preparing to unpack .../09-openjdk-11-jdk_11.0.15+10-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking openjdk-11-jdk:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+Selecting previously unselected package default-jdk.
+Preparing to unpack .../10-default-jdk_2%3a1.11-68ubuntu1~18.04.1_amd64.deb ...
+Unpacking default-jdk (2:1.11-68ubuntu1~18.04.1) ...
+Selecting previously unselected package fonts-dejavu-extra.
+Preparing to unpack .../11-fonts-dejavu-extra_2.37-1_all.deb ...
+Unpacking fonts-dejavu-extra (2.37-1) ...
+Selecting previously unselected package libatk-wrapper-java.
+Preparing to unpack .../12-libatk-wrapper-java_0.33.3-20ubuntu0.1_all.deb ...
+Unpacking libatk-wrapper-java (0.33.3-20ubuntu0.1) ...
+Selecting previously unselected package libatk-wrapper-java-jni:amd64.
+Preparing to unpack .../13-libatk-wrapper-java-jni_0.33.3-20ubuntu0.1_amd64.deb ...
+Unpacking libatk-wrapper-java-jni:amd64 (0.33.3-20ubuntu0.1) ...
+Selecting previously unselected package xorg-sgml-doctools.
+Preparing to unpack .../14-xorg-sgml-doctools_1%3a1.11-1_all.deb ...
+Unpacking xorg-sgml-doctools (1:1.11-1) ...
+Selecting previously unselected package x11proto-dev.
+Preparing to unpack .../15-x11proto-dev_2018.4-4_all.deb ...
+Unpacking x11proto-dev (2018.4-4) ...
+Selecting previously unselected package x11proto-core-dev.
+Preparing to unpack .../16-x11proto-core-dev_2018.4-4_all.deb ...
+Unpacking x11proto-core-dev (2018.4-4) ...
+Selecting previously unselected package libice-dev:amd64.
+Preparing to unpack .../17-libice-dev_2%3a1.0.9-2_amd64.deb ...
+Unpacking libice-dev:amd64 (2:1.0.9-2) ...
+Selecting previously unselected package libpthread-stubs0-dev:amd64.
+Preparing to unpack .../18-libpthread-stubs0-dev_0.3-4_amd64.deb ...
+Unpacking libpthread-stubs0-dev:amd64 (0.3-4) ...
+Selecting previously unselected package libsm-dev:amd64.
+Preparing to unpack .../19-libsm-dev_2%3a1.2.2-1_amd64.deb ...
+Unpacking libsm-dev:amd64 (2:1.2.2-1) ...
+Selecting previously unselected package libxau-dev:amd64.
+Preparing to unpack .../20-libxau-dev_1%3a1.0.8-1ubuntu1_amd64.deb ...
+Unpacking libxau-dev:amd64 (1:1.0.8-1ubuntu1) ...
+Selecting previously unselected package libxdmcp-dev:amd64.
+Preparing to unpack .../21-libxdmcp-dev_1%3a1.1.2-3_amd64.deb ...
+Unpacking libxdmcp-dev:amd64 (1:1.1.2-3) ...
+Selecting previously unselected package xtrans-dev.
+Preparing to unpack .../22-xtrans-dev_1.3.5-1_all.deb ...
+Unpacking xtrans-dev (1.3.5-1) ...
+Selecting previously unselected package libxcb1-dev:amd64.
+Preparing to unpack .../23-libxcb1-dev_1.13-2~ubuntu18.04_amd64.deb ...
+Unpacking libxcb1-dev:amd64 (1.13-2~ubuntu18.04) ...
+Selecting previously unselected package libx11-dev:amd64.
+Preparing to unpack .../24-libx11-dev_2%3a1.6.4-3ubuntu0.4_amd64.deb ...
+Unpacking libx11-dev:amd64 (2:1.6.4-3ubuntu0.4) ...
+Selecting previously unselected package libx11-doc.
+Preparing to unpack .../25-libx11-doc_2%3a1.6.4-3ubuntu0.4_all.deb ...
+Unpacking libx11-doc (2:1.6.4-3ubuntu0.4) ...
+Selecting previously unselected package libxt-dev:amd64.
+Preparing to unpack .../26-libxt-dev_1%3a1.1.5-1_amd64.deb ...
+Unpacking libxt-dev:amd64 (1:1.1.5-1) ...
+Setting up libpthread-stubs0-dev:amd64 (0.3-4) ...
+Setting up xorg-sgml-doctools (1:1.11-1) ...
+Setting up java-common (0.68ubuntu1~18.04.1) ...
+Setting up libgif7:amd64 (5.1.4-2ubuntu0.1) ...
+Setting up x11proto-dev (2018.4-4) ...
+Setting up xtrans-dev (1.3.5-1) ...
+Setting up libxdmcp-dev:amd64 (1:1.1.2-3) ...
+Setting up libice-dev:amd64 (2:1.0.9-2) ...
+Setting up libx11-doc (2:1.6.4-3ubuntu0.4) ...
+Setting up fonts-dejavu-extra (2.37-1) ...
+Setting up libatk-wrapper-java (0.33.3-20ubuntu0.1) ...
+Setting up libsm-dev:amd64 (2:1.2.2-1) ...
+Setting up x11proto-core-dev (2018.4-4) ...
+Setting up libxau-dev:amd64 (1:1.0.8-1ubuntu1) ...
+Setting up libatk-wrapper-java-jni:amd64 (0.33.3-20ubuntu0.1) ...
+Setting up libxcb1-dev:amd64 (1.13-2~ubuntu18.04) ...
+Setting up libx11-dev:amd64 (2:1.6.4-3ubuntu0.4) ...
+Setting up libxt-dev:amd64 (1:1.1.5-1) ...
+Setting up openjdk-11-jre-headless:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/lib/jexec to provide /usr/bin/jexec (jexec) in auto mode
+Setting up openjdk-11-jdk-headless:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeprscan to provide /usr/bin/jdeprscan (jdeprscan) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jfr to provide /usr/bin/jfr (jfr) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jimage to provide /usr/bin/jimage (jimage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jlink to provide /usr/bin/jlink (jlink) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jmod to provide /usr/bin/jmod (jmod) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jshell to provide /usr/bin/jshell (jshell) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/rmic to provide /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jaotc to provide /usr/bin/jaotc (jaotc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jhsdb to provide /usr/bin/jhsdb (jhsdb) in auto mode
+Setting up default-jre-headless (2:1.11-68ubuntu1~18.04.1) ...
+Setting up default-jdk-headless (2:1.11-68ubuntu1~18.04.1) ...
+Setting up openjdk-11-jre:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+Setting up ca-certificates-java (20180516ubuntu1~18.04.1) ...
+head: cannot open '/etc/ssl/certs/java/cacerts' for reading: No such file or directory
+Adding debian:Entrust_Root_Certification_Authority_-_EC1.pem
+Adding debian:DigiCert_Global_Root_G3.pem
+Adding debian:ssl-cert-snakeoil.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_2009.pem
+Adding debian:certSIGN_ROOT_CA.pem
+Adding debian:Certum_Trusted_Network_CA_2.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem
+Adding debian:Certigna_Root_CA.pem
+Adding debian:QuoVadis_Root_CA_2_G3.pem
+Adding debian:Staat_der_Nederlanden_Root_CA_-_G3.pem
+Adding debian:EC-ACC.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+Adding debian:UCA_Global_G2_Root.pem
+Adding debian:SSL.com_Root_Certification_Authority_ECC.pem
+Adding debian:COMODO_RSA_Certification_Authority.pem
+Adding debian:ISRG_Root_X1.pem
+Adding debian:Security_Communication_Root_CA.pem
+Adding debian:Buypass_Class_2_Root_CA.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_2.pem
+Adding debian:GlobalSign_Root_CA.pem
+Adding debian:SSL.com_EV_Root_Certification_Authority_ECC.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G2.pem
+Adding debian:NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem
+Adding debian:Microsec_e-Szigno_Root_CA_2009.pem
+Adding debian:XRamp_Global_CA_Root.pem
+Adding debian:UCA_Extended_Validation_Root.pem
+Adding debian:COMODO_Certification_Authority.pem
+Adding debian:AffirmTrust_Commercial.pem
+Adding debian:GTS_Root_R1.pem
+Adding debian:DigiCert_Global_Root_CA.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R4.pem
+Adding debian:AffirmTrust_Premium.pem
+Adding debian:Entrust.net_Premium_2048_Secure_Server_CA.pem
+Adding debian:GDCA_TrustAUTH_R5_ROOT.pem
+Adding debian:SwissSign_Gold_CA_-_G2.pem
+Adding debian:QuoVadis_Root_CA_3_G3.pem
+Adding debian:SecureSign_RootCA11.pem
+Adding debian:Atos_TrustedRoot_2011.pem
+Adding debian:VeriSign_Universal_Root_Certification_Authority.pem
+Adding debian:GeoTrust_Primary_Certification_Authority_-_G2.pem
+Adding debian:Starfield_Services_Root_Certificate_Authority_-_G2.pem
+Adding debian:ePKI_Root_Certification_Authority.pem
+Adding debian:Go_Daddy_Root_Certificate_Authority_-_G2.pem
+Adding debian:CA_Disig_Root_R2.pem
+Adding debian:Hongkong_Post_Root_CA_3.pem
+Adding debian:DigiCert_Assured_ID_Root_CA.pem
+Adding debian:Buypass_Class_3_Root_CA.pem
+Adding debian:QuoVadis_Root_CA_2.pem
+Adding debian:GlobalSign_Root_CA_-_R3.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+Adding debian:Amazon_Root_CA_1.pem
+Adding debian:emSign_Root_CA_-_G1.pem
+Adding debian:Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+Adding debian:Trustwave_Global_Certification_Authority.pem
+Adding debian:Staat_der_Nederlanden_EV_Root_CA.pem
+Adding debian:SSL.com_Root_Certification_Authority_RSA.pem
+Adding debian:SZAFIR_ROOT_CA2.pem
+Adding debian:Certum_Trusted_Network_CA.pem
+Adding debian:COMODO_ECC_Certification_Authority.pem
+Adding debian:USERTrust_RSA_Certification_Authority.pem
+Adding debian:AffirmTrust_Networking.pem
+Adding debian:Secure_Global_CA.pem
+Adding debian:TWCA_Global_Root_CA.pem
+Adding debian:TrustCor_ECA-1.pem
+Adding debian:AC_RAIZ_FNMT-RCM.pem
+Adding debian:Chambers_of_Commerce_Root_-_2008.pem
+Adding debian:Baltimore_CyberTrust_Root.pem
+Adding debian:Amazon_Root_CA_2.pem
+Adding debian:emSign_ECC_Root_CA_-_G3.pem
+Adding debian:OISTE_WISeKey_Global_Root_GC_CA.pem
+Adding debian:TeliaSonera_Root_CA_v1.pem
+Adding debian:Go_Daddy_Class_2_CA.pem
+Adding debian:D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+Adding debian:Security_Communication_RootCA2.pem
+Adding debian:Trustis_FPS_Root_CA.pem
+Adding debian:Entrust_Root_Certification_Authority_-_G4.pem
+Adding debian:TrustCor_RootCert_CA-2.pem
+Adding debian:DigiCert_Global_Root_G2.pem
+Adding debian:TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+Adding debian:Izenpe.com.pem
+Adding debian:emSign_ECC_Root_CA_-_C3.pem
+Adding debian:TWCA_Root_Certification_Authority.pem
+Adding debian:DigiCert_Assured_ID_Root_G3.pem
+Adding debian:QuoVadis_Root_CA.pem
+Adding debian:NAVER_Global_Root_Certification_Authority.pem
+Adding debian:Actalis_Authentication_Root_CA.pem
+Adding debian:Certigna.pem
+Adding debian:QuoVadis_Root_CA_3.pem
+Adding debian:Global_Chambersign_Root_-_2008.pem
+Adding debian:Entrust_Root_Certification_Authority.pem
+Adding debian:E-Tugra_Certification_Authority.pem
+Adding debian:DigiCert_Trusted_Root_G4.pem
+Adding debian:Starfield_Root_Certificate_Authority_-_G2.pem
+Adding debian:certSIGN_Root_CA_G2.pem
+Adding debian:ACCVRAIZ1.pem
+Adding debian:SwissSign_Silver_CA_-_G2.pem
+Adding debian:DST_Root_CA_X3.pem
+Adding debian:Sonera_Class_2_Root_CA.pem
+Adding debian:SecureTrust_CA.pem
+Adding debian:Trustwave_Global_ECC_P256_Certification_Authority.pem
+Adding debian:AffirmTrust_Premium_ECC.pem
+Adding debian:Microsoft_ECC_Root_Certificate_Authority_2017.pem
+Adding debian:Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+Adding debian:GlobalSign_Root_CA_-_R6.pem
+Adding debian:GTS_Root_R4.pem
+Adding debian:DigiCert_High_Assurance_EV_Root_CA.pem
+Adding debian:Hongkong_Post_Root_CA_1.pem
+Adding debian:GlobalSign_ECC_Root_CA_-_R5.pem
+Adding debian:QuoVadis_Root_CA_1_G3.pem
+Adding debian:TrustCor_RootCert_CA-1.pem
+Adding debian:emSign_Root_CA_-_C1.pem
+Adding debian:GlobalSign_Root_CA_-_R2.pem
+Adding debian:GTS_Root_R2.pem
+Adding debian:e-Szigno_Root_CA_2017.pem
+Adding debian:Microsoft_RSA_Root_Certificate_Authority_2017.pem
+Adding debian:DigiCert_Assured_ID_Root_G2.pem
+Adding debian:Network_Solutions_Certificate_Authority.pem
+Adding debian:Amazon_Root_CA_4.pem
+Adding debian:IdenTrust_Public_Sector_Root_CA_1.pem
+Adding debian:T-TeleSec_GlobalRoot_Class_3.pem
+Adding debian:Amazon_Root_CA_3.pem
+Adding debian:CFCA_EV_ROOT.pem
+Adding debian:OISTE_WISeKey_Global_Root_GB_CA.pem
+Adding debian:USERTrust_ECC_Certification_Authority.pem
+Adding debian:Cybertrust_Global_Root.pem
+Adding debian:IdenTrust_Commercial_Root_CA_1.pem
+Adding debian:GTS_Root_R3.pem
+Adding debian:Starfield_Class_2_CA.pem
+Adding debian:Trustwave_Global_ECC_P384_Certification_Authority.pem
+Adding debian:Comodo_AAA_Services_root.pem
+done.
+Setting up default-jre (2:1.11-68ubuntu1~18.04.1) ...
+Setting up openjdk-11-jdk:amd64 (11.0.15+10-0ubuntu0.18.04.1) ...
+update-alternatives: using /usr/lib/jvm/java-11-openjdk-amd64/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+Setting up default-jdk (2:1.11-68ubuntu1~18.04.1) ...
+Processing triggers for fontconfig (2.12.6-0ubuntu2) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for libc-bin (2.27-3ubuntu1.4) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Processing triggers for ca-certificates (20210119~18.04.1) ...
+Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+
+done.
+done.
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+manish@manish-VirtualBox:~$ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
+>   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+
+Command 'curl' not found, but can be installed with:
+
+sudo apt install curl
+
+manish@manish-VirtualBox:~$ sudo apt-get install curl
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0 grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libcolamd2 libdazzle-1.0-0 libe-book-0.1-1
+  libedataserverui-1.2-2 libeot0 libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libexiv2-14 libfreerdp-client2-2 libfreerdp2-2 libgc1c2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0 libgpgmepp6 libgpod-common
+  libgpod4 liblangtag-common liblangtag1 liblirc-client0 liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1 libqqwing2v5 libraw16 librevenge-0.0-0 libsgutils2-2 libssh-4 libsuitesparseconfig5
+  libvncclient1 libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve media-player-info python3-mako python3-markupsafe syslinux syslinux-common syslinux-legacy usb-creator-common
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libcurl4
+The following NEW packages will be installed:
+  curl libcurl4
+0 upgraded, 2 newly installed, 0 to remove and 135 not upgraded.
+Need to get 379 kB of archives.
+After this operation, 1,053 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 libcurl4 amd64 7.58.0-2ubuntu3.17 [220 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 curl amd64 7.58.0-2ubuntu3.17 [159 kB]
+Fetched 379 kB in 2s (235 kB/s)
+Selecting previously unselected package libcurl4:amd64.
+(Reading database ... 158666 files and directories currently installed.)
+Preparing to unpack .../libcurl4_7.58.0-2ubuntu3.17_amd64.deb ...
+Unpacking libcurl4:amd64 (7.58.0-2ubuntu3.17) ...
+Selecting previously unselected package curl.
+Preparing to unpack .../curl_7.58.0-2ubuntu3.17_amd64.deb ...
+Unpacking curl (7.58.0-2ubuntu3.17) ...
+Setting up libcurl4:amd64 (7.58.0-2ubuntu3.17) ...
+Setting up curl (7.58.0-2ubuntu3.17) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1.4) ...
+manish@manish-VirtualBox:~$ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+manish@manish-VirtualBox:~$ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+>   https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+>   /etc/apt/sources.list.d/jenkins.list > /dev/null
+manish@manish-VirtualBox:~$ sudo apt-get update
+Hit:1 http://in.archive.ubuntu.com/ubuntu bionic InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease                                                                    
+Hit:3 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease                                                                  
+Ign:4 https://pkg.jenkins.io/debian-stable binary/ InRelease                                                                          
+Get:5 https://pkg.jenkins.io/debian-stable binary/ Release [2,044 B]                                  
+Get:6 https://pkg.jenkins.io/debian-stable binary/ Release.gpg [833 B]                                     
+Get:7 https://pkg.jenkins.io/debian-stable binary/ Packages [21.8 kB]           
+Hit:8 http://security.ubuntu.com/ubuntu bionic-security InRelease
+Fetched 24.6 kB in 1s (24.8 kB/s)
+Reading package lists... Done
+manish@manish-VirtualBox:~$ sudo apt-get install jenkins
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0 grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libcolamd2 libdazzle-1.0-0 libe-book-0.1-1
+  libedataserverui-1.2-2 libeot0 libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libexiv2-14 libfreerdp-client2-2 libfreerdp2-2 libgc1c2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0 libgpgmepp6 libgpod-common
+  libgpod4 liblangtag-common liblangtag1 liblirc-client0 liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1 libqqwing2v5 libraw16 librevenge-0.0-0 libsgutils2-2 libssh-4 libsuitesparseconfig5
+  libvncclient1 libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve media-player-info python3-mako python3-markupsafe syslinux syslinux-common syslinux-legacy usb-creator-common
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  net-tools
+The following NEW packages will be installed:
+  jenkins net-tools
+0 upgraded, 2 newly installed, 0 to remove and 135 not upgraded.
+Need to get 91.5 MB of archives.
+After this operation, 95.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 net-tools amd64 1.60+git20161116.90da8a0-1ubuntu1 [194 kB]
+Get:2 https://pkg.jenkins.io/debian-stable binary/ jenkins 2.332.2 [91.4 MB]      
+Fetched 91.5 MB in 3min 27s (442 kB/s)                                                                                                                                                                     
+Selecting previously unselected package net-tools.
+(Reading database ... 158679 files and directories currently installed.)
+Preparing to unpack .../net-tools_1.60+git20161116.90da8a0-1ubuntu1_amd64.deb ...
+Unpacking net-tools (1.60+git20161116.90da8a0-1ubuntu1) ...
+Selecting previously unselected package jenkins.
+Preparing to unpack .../jenkins_2.332.2_all.deb ...
+Unpacking jenkins (2.332.2) ...
+Setting up net-tools (1.60+git20161116.90da8a0-1ubuntu1) ...
+Setting up jenkins (2.332.2) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/jenkins.service → /lib/systemd/system/jenkins.service.
+Processing triggers for systemd (237-3ubuntu10.52) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+manish@manish-VirtualBox:~$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+d581cde7bf834625b4d9d0a0fc86d5e3
+manish@manish-VirtualBox:~$ history
+    1  sudo apt install build-essential dkms linux-headers-$(uname -r)
+    2  sudo apt-get update
+    3  sudo apt-get install default-jdk
+    4  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+    5  sudo apt-get install curl
+    6  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+    7  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+    8  sudo apt-get update
+    9  sudo apt-get install jenkins
+   10  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   11  history
+manish@manish-VirtualBox:~$ sudo apt-get install git
+[sudo] password for manish: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0 grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libcolamd2 libdazzle-1.0-0 libe-book-0.1-1
+  libedataserverui-1.2-2 libeot0 libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libexiv2-14 libfreerdp-client2-2 libfreerdp2-2 libgc1c2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0 libgpgmepp6 libgpod-common
+  libgpod4 liblangtag-common liblangtag1 liblirc-client0 liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1 libqqwing2v5 libraw16 librevenge-0.0-0 libsgutils2-2 libssh-4 libsuitesparseconfig5
+  libvncclient1 libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve media-player-info python3-mako python3-markupsafe syslinux syslinux-common syslinux-legacy usb-creator-common
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  git-man liberror-perl
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-el git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn
+The following NEW packages will be installed:
+  git git-man liberror-perl
+0 upgraded, 3 newly installed, 0 to remove and 135 not upgraded.
+Need to get 4,751 kB of archives.
+After this operation, 34.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 liberror-perl all 0.17025-1 [22.8 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 git-man all 1:2.17.1-1ubuntu0.11 [804 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 git amd64 1:2.17.1-1ubuntu0.11 [3,925 kB]
+Fetched 4,751 kB in 12s (404 kB/s)                                                                                                                                                                         
+Selecting previously unselected package liberror-perl.
+(Reading database ... 158741 files and directories currently installed.)
+Preparing to unpack .../liberror-perl_0.17025-1_all.deb ...
+Unpacking liberror-perl (0.17025-1) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../git-man_1%3a2.17.1-1ubuntu0.11_all.deb ...
+Unpacking git-man (1:2.17.1-1ubuntu0.11) ...
+Selecting previously unselected package git.
+Preparing to unpack .../git_1%3a2.17.1-1ubuntu0.11_amd64.deb ...
+Unpacking git (1:2.17.1-1ubuntu0.11) ...
+Setting up git-man (1:2.17.1-1ubuntu0.11) ...
+Setting up liberror-perl (0.17025-1) ...
+Setting up git (1:2.17.1-1ubuntu0.11) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+manish@manish-VirtualBox:~$ sudo apt insall docker.io
+[sudo] password for manish: 
+E: Invalid operation insall
+manish@manish-VirtualBox:~$ sudo apt install docker.io
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  fonts-liberation2 fonts-opensymbol gir1.2-gst-plugins-base-1.0 gir1.2-gstreamer-1.0 gir1.2-gudev-1.0 gir1.2-udisks-2.0 grilo-plugins-0.3-base gstreamer1.0-gtk3 libboost-date-time1.65.1
+  libboost-filesystem1.65.1 libboost-iostreams1.65.1 libboost-locale1.65.1 libcdr-0.1-1 libclucene-contribs1v5 libclucene-core1v5 libcmis-0.5-5v5 libcolamd2 libdazzle-1.0-0 libe-book-0.1-1
+  libedataserverui-1.2-2 libeot0 libepubgen-0.1-1 libetonyek-0.1-1 libevent-2.1-6 libexiv2-14 libfreerdp-client2-2 libfreerdp2-2 libgc1c2 libgee-0.8-2 libgexiv2-2 libgom-1.0-0 libgpgmepp6 libgpod-common
+  libgpod4 liblangtag-common liblangtag1 liblirc-client0 liblua5.3-0 libmediaart-2.0-0 libmspub-0.1-1 libodfgen-0.1-1 libqqwing2v5 libraw16 librevenge-0.0-0 libsgutils2-2 libssh-4 libsuitesparseconfig5
+  libvncclient1 libwinpr2-2 libxapian30 libxmlsec1 libxmlsec1-nss lp-solve media-player-info python3-mako python3-markupsafe syslinux syslinux-common syslinux-legacy usb-creator-common
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  bridge-utils containerd pigz runc ubuntu-fan
+Suggested packages:
+  aufs-tools btrfs-progs cgroupfs-mount | cgroup-lite debootstrap docker-doc rinse zfs-fuse | zfsutils
+The following NEW packages will be installed:
+  bridge-utils containerd docker.io pigz runc ubuntu-fan
+0 upgraded, 6 newly installed, 0 to remove and 135 not upgraded.
+Need to get 74.2 MB of archives.
+After this operation, 360 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://in.archive.ubuntu.com/ubuntu bionic/universe amd64 pigz amd64 2.4-1 [57.4 kB]
+Get:2 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 bridge-utils amd64 1.5-15ubuntu1 [30.1 kB]
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 runc amd64 1.0.1-0ubuntu2~18.04.1 [4,155 kB]
+Get:4 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 containerd amd64 1.5.5-0ubuntu3~18.04.2 [33.0 MB]                                                                                  
+Get:5 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 docker.io amd64 20.10.7-0ubuntu5~18.04.3 [36.9 MB]                                                                                 
+Get:6 http://in.archive.ubuntu.com/ubuntu bionic/main amd64 ubuntu-fan all 0.12.10 [34.7 kB]                                                                                                               
+Fetched 74.2 MB in 1min 29s (837 kB/s)                                                                                                                                                                     
+Preconfiguring packages ...
+Selecting previously unselected package pigz.
+(Reading database ... 159648 files and directories currently installed.)
+Preparing to unpack .../0-pigz_2.4-1_amd64.deb ...
+Unpacking pigz (2.4-1) ...
+Selecting previously unselected package bridge-utils.
+Preparing to unpack .../1-bridge-utils_1.5-15ubuntu1_amd64.deb ...
+Unpacking bridge-utils (1.5-15ubuntu1) ...
+Selecting previously unselected package runc.
+Preparing to unpack .../2-runc_1.0.1-0ubuntu2~18.04.1_amd64.deb ...
+Unpacking runc (1.0.1-0ubuntu2~18.04.1) ...
+Selecting previously unselected package containerd.
+Preparing to unpack .../3-containerd_1.5.5-0ubuntu3~18.04.2_amd64.deb ...
+Unpacking containerd (1.5.5-0ubuntu3~18.04.2) ...
+Selecting previously unselected package docker.io.
+Preparing to unpack .../4-docker.io_20.10.7-0ubuntu5~18.04.3_amd64.deb ...
+Unpacking docker.io (20.10.7-0ubuntu5~18.04.3) ...
+Selecting previously unselected package ubuntu-fan.
+Preparing to unpack .../5-ubuntu-fan_0.12.10_all.deb ...
+Unpacking ubuntu-fan (0.12.10) ...
+Setting up runc (1.0.1-0ubuntu2~18.04.1) ...
+Setting up containerd (1.5.5-0ubuntu3~18.04.2) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service → /lib/systemd/system/containerd.service.
+Setting up bridge-utils (1.5-15ubuntu1) ...
+Setting up ubuntu-fan (0.12.10) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/ubuntu-fan.service → /lib/systemd/system/ubuntu-fan.service.
+Setting up pigz (2.4-1) ...
+Setting up docker.io (20.10.7-0ubuntu5~18.04.3) ...
+Adding group `docker' (GID 128) ...
+Done.
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /lib/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/systemd/system/docker.socket.
+Processing triggers for systemd (237-3ubuntu10.52) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+manish@manish-VirtualBox:~$ docker --version
+Docker version 20.10.7, build 20.10.7-0ubuntu5~18.04.3
+manish@manish-VirtualBox:~$ docker images
+Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/json: dial unix /var/run/docker.sock: connect: permission denied
+manish@manish-VirtualBox:~$ sudo docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+manish@manish-VirtualBox:~$ sudo su
+root@manish-VirtualBox:/home/manish# docker images
+REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+root@manish-VirtualBox:/home/manish# docker pull centos
+Using default tag: latest
+latest: Pulling from library/centos
+a1d0c7532777: Pull complete 
+Digest: sha256:a27fd8080b517143cbbbab9dfb7c8571c40d67d534bbdee55bd6c473f432b177
+Status: Downloaded newer image for centos:latest
+docker.io/library/centos:latest
+root@manish-VirtualBox:/home/manish# docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+root@manish-VirtualBox:/home/manish# docker run -it -d centos
+819aade3752d931a31480d7a9d0465152798435c3db2eef82e8764354fbd987d
+root@manish-VirtualBox:/home/manish# docker ps -a
+CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS         PORTS     NAMES
+819aade3752d   centos    "/bin/bash"   5 seconds ago   Up 3 seconds             flamboyant_booth
+root@manish-VirtualBox:/home/manish# docker exec -t 819aade3752d bash
+[root@819aade3752d /]# neofetch
+^C
+root@manish-VirtualBox:/home/manish# docker exec -t 819aade3752d bash
+[root@819aade3752d /]# uname -a
+exit
+^C
+root@manish-VirtualBox:/home/manish# docker exec -t 819aade3752d bash
+[root@819aade3752d /]# ls
+^C
+root@manish-VirtualBox:/home/manish# docker exec -t 819aade3752d bash
+[root@819aade3752d /]# cd^C   		
+root@manish-VirtualBox:/home/manish# docker exec -t 819aade3752d bash
+[root@819aade3752d /]# ^C
+root@manish-VirtualBox:/home/manish# docker kill 819aade3752d
+819aade3752d
+root@manish-VirtualBox:/home/manish# docker ps -a
+CONTAINER ID   IMAGE     COMMAND       CREATED         STATUS                        PORTS     NAMES
+819aade3752d   centos    "/bin/bash"   7 minutes ago   Exited (137) 16 seconds ago             flamboyant_booth
+root@manish-VirtualBox:/home/manish# docker images
+REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+centos       latest    5d0da3dc9764   7 months ago   231MB
+root@manish-VirtualBox:/home/manish# docker rmi centos
+Error response from daemon: conflict: unable to remove repository reference "centos" (must force) - container 819aade3752d is using its referenced image 5d0da3dc9764
+root@manish-VirtualBox:/home/manish# docker rmi centos
+Error response from daemon: conflict: unable to remove repository reference "centos" (must force) - container 819aade3752d is using its referenced image 5d0da3dc9764
+root@manish-VirtualBox:/home/manish# docker rmi 5d0da3dc9764
+Error response from daemon: conflict: unable to delete 5d0da3dc9764 (must be forced) - image is being used by stopped container 819aade3752d
+root@manish-VirtualBox:/home/manish# cd
+root@manish-VirtualBox:~# cd home
+bash: cd: home: No such file or directory
+root@manish-VirtualBox:~# docker images
+REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+centos       latest    5d0da3dc9764   7 months ago   231MB
+root@manish-VirtualBox:~# docker rmi centos
+Error response from daemon: conflict: unable to remove repository reference "centos" (must force) - container 819aade3752d is using its referenced image 5d0da3dc9764
+root@manish-VirtualBox:~# history
+    1  docker images
+    2  docker pull centos
+    3  docker ps -a
+    4  docker run -it -d centos
+    5  docker ps -a
+    6  docker exec -t 819aade3752d bash
+    7  docker kill 819aade3752d
+    8  docker ps -a
+    9  docker images
+   10  docker rmi centos
+   11  docker rmi 5d0da3dc9764
+   12  cd
+   13  cd home
+   14  docker images
+   15* docker rmi centoshistory
+   16  history
+root@manish-VirtualBox:~# docker exec -it 819aade3752d bash
+Error response from daemon: Container 819aade3752d931a31480d7a9d0465152798435c3db2eef82e8764354fbd987d is not running
+root@manish-VirtualBox:~# 
